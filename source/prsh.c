@@ -95,7 +95,7 @@ void prsh_mcp_recovery();
 void prsh_mcp_recovery_alt();
 
 menu menu_prsh = {
-    "minute", // title
+    MENU_TITLE, // title
     {
             "Backup and Restore", // subtitles
     },

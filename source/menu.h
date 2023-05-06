@@ -13,6 +13,8 @@
 #include "types.h"
 #include "console.h"
 
+#define MENU_TITLE "minute - bleeding edge"
+
 extern bool menu_active;
 
 typedef struct {

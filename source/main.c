@@ -414,7 +414,7 @@ fat_fail:
 void main_swapboot_patch(void);
 
 menu menu_main = {
-    "minute", // title
+    MENU_TITLE, // title
     {
             "Main menu", // subtitles
     },

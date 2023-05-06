@@ -58,7 +58,7 @@ static u8 nand_page_buf[PAGE_SIZE + PAGE_SPARE_SIZE] ALIGNED(128);
 static u8 nand_ecc_buf[ECC_BUFFER_ALLOC] ALIGNED(128);
 
 menu menu_dump = {
-    "minute", // title
+    MENU_TITLE, // title
     {
             "Backup and Restore", // subtitles
     },
@@ -85,7 +85,7 @@ menu menu_dump = {
 };
 
 menu menu_sata = {
-    "minute", // title
+    MENU_TITLE, // title
     {
             "Set SEEPROM SATA device type", // subtitles
     },
